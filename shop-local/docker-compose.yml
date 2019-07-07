@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  miaosha2:
+    image: miaosha2:latest
+    command:
+      - "--mysql.address=192.168.137.20"
+    ports:
+      - 8080:8090
